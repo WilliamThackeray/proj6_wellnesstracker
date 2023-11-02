@@ -1,0 +1,64 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+:root {
+  --lblue: #DDF2FD;
+  --mblue: #9BBEC8;
+  --blue: #427D9D;
+  --dblue: #164863;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: var(--lblue);
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+h1 {
+  text-align: center;
+  background-color: var(--mblue);
+  margin: 0;
+  padding: 2rem;
+}
+
+#newProfile {
+  text-align: center;
+}
+#newProfile label {
+  display: block;
+  margin: .5rem;
+}
+#newProfile input, #newProfile select {
+
+}
+#newProfile input[type="submit"] {
+  padding: 0.8rem;
+  border-radius: 8px;
+  background-color: var(--dblue);
+  color: white;
+}
+
+
+#myProfile {
+
+}
+#myProfile img {
+
+}
+#myProfile p {
+
+}
+#myProfile button {
+
+}
+#myProfile section {
+
+}
