@@ -37,7 +37,8 @@ h1 {
   margin: .5rem;
 }
 #newProfile input, #newProfile select {
-
+  padding: 0.3rem;
+  border-radius: 5px;
 }
 #newProfile input[type="submit"] {
   padding: 0.8rem;
@@ -48,17 +49,20 @@ h1 {
 
 
 #myProfile {
-
+  display: flex;
+  flex-direction: column;
 }
 #myProfile img {
-
-}
-#myProfile p {
-
+  width: 50%;
 }
 #myProfile button {
-
+  padding: 1rem;
+  background-color: var(--dblue);
+  color: var(--lblue);
+  border-radius: 15px;
 }
 #myProfile section {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
